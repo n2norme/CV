@@ -9954,6 +9954,68 @@ ul, ol {
   list-style: none;
 }
 
+/* Menu */
+.navbar {
+  background: #d82c2e;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-pills .nav-link {
+  color: #fff !important;
+  text-align: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link:hover {
+  color: #d82c2e !important;
+  background-color: #fff !important;
+}
+
+.navbar-toggler {
+  color: #fff !important;
+  border-style: none;
+}
+
+/* CONTACT */
+#contact {
+  background: #d82c2e;
+}
+
+#contact .heading h2 {
+  color: #fff;
+}
+
+#contact-form {
+  font-size: 20px;
+  color: #fff;
+}
+
+.form-control {
+  height: 50px;
+  font-size: 18px;
+}
+
+#contact-form input[type=submit] {
+  margin: 40px auto 0px;
+  display: block;
+}
+
+.comments {
+  font-style: italic;
+  font-size: 18px;
+  color: #fff;
+  height: 25px;
+}
+
+#contact-form .thank-you {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
 /* ABOUT */
 #about {
   padding-top: 100px;
@@ -10206,6 +10268,29 @@ ul, ol {
 
 #portfolio .col-md-4 {
   margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  padding: 20px 0 40px;
+}
+
+footer .glyphicon {
+  font-size: 25px;
+  margin: 20px;
+  color: #d82c2e;
+  height: 30px;
+  background-color: white;
+}
+
+footer .glyphicon:hover {
+  font-size: 27px;
+}
+
+footer h5 {
+  color: #fff;
+  font-weight: normal;
 }
 
 /*# sourceMappingURL=style.css.map */
